@@ -1,0 +1,55 @@
+.box {
+    border: 1px solid lightgray;
+    margin: 10px auto;
+    width: 520px;
+    height: 570px;
+    padding: 20px;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.food-img {
+    width: 100%;
+    height: 350px;
+    border-radius: 14px;
+}
+.box-header {
+    position: relative;
+}
+.discount {
+    position: absolute;
+    bottom: 20;
+    left: 0;
+    background-color: #2074e9;
+    color: white;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.time {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: aliceblue;
+    padding: 1px 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.promoted {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: rgba(10, 10, 11, 0.444);
+    padding: 2px 10px; 
+    color: rgba(240, 248, 255, 0.699);
+}
+h2 {
+    font-weight: lighter;
+    color: #454545;
+}
+.line {
+    border: 1px solid lightgray;
+    display: block;
+}
+p {
+    width: 300px;
+    color: #454545;
+}
